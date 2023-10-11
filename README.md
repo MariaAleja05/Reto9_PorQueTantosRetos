@@ -5,7 +5,7 @@
 * Mirar archivo Punto_1.ipynb
 
 ### Primera función:
-**Enunciado: (reto 6, punto 3)**
+**Enunciado: (reto 6, punto 3)** Diseñe una función que calcule la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
 
 * Sin usar lambda:
       
@@ -36,7 +36,7 @@ if __name__ == "__main__":
 ```
 
 ### Segunda función:
-**Enunciado: (reto 6, punto 4)**
+**Enunciado: (reto 6, punto 4)** Mi mamá me manda a comprar P panes a 300 cada uno, M bolsas de leche a 3300 cada una y H huevos a 350 cada uno. Hacer un programa que me diga las vueltas (o lo que quedo debiendo) cuando me da un billete de B pesos.
 
 * Sin usar lambda:
       
@@ -80,7 +80,7 @@ if __name__ == "__main__":
 ```
 
 ### Tercera función:
-**Enunciado: (reto 6, punto 5)**
+**Enunciado: (reto 6, punto 5)** Haga un programa que utilice una función para calcular el valor de un préstamo C usando interés compuesto del i por n meses.
 
 * Sin usar lambda:
       
@@ -116,7 +116,7 @@ if __name__ == "__main__":
 * Mirar archivo Punto_2.ipynb
 
 ### Primera función:
-**Enunciado: (reto 6, punto 3)**
+**Enunciado: (reto 6, punto 3)** Diseñe una función que calcule la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
 
 * Sin usar *args:
       
@@ -151,7 +151,7 @@ if __name__ == "__main__":
 ```
 
 ### Segunda función:
-**Enunciado: (reto 6, punto 4)**
+**Enunciado: (reto 6, punto 4)** Mi mamá me manda a comprar P panes a 300 cada uno, M bolsas de leche a 3300 cada una y H huevos a 350 cada uno. Hacer un programa que me diga las vueltas (o lo que quedo debiendo) cuando me da un billete de B pesos.
 
 * Sin usar *args:
       
@@ -200,7 +200,7 @@ if __name__ == "__main__":
 ```
 
 ### Tercera función:
-**Enunciado: (reto 6, punto 5)**
+**Enunciado: (reto 6, punto 5)** Haga un programa que utilice una función para calcular el valor de un préstamo C usando interés compuesto del i por n meses.
 
 * Sin usar *args:
       
