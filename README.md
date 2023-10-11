@@ -2,6 +2,8 @@
 ### Fecha:  09-10-2023
 **1.** De los retos anteriores selecione 3 funciones y escribalas en forma de lambdas.
 
+* Mirar archivo Punto_1.ipynb
+
 ### Primera función:
 **Enunciado: (reto 6, punto 3)**
 
@@ -109,9 +111,9 @@ if __name__ == "__main__":
   print("El interes compuesto es " + str(total_f))
 ```
 
-* Mirar archivo Punto_1.py
-
 **2.** De los retos anteriores selecione 3 funciones y escribalas con argumentos no definidos (*args).
+
+* Mirar archivo Punto_2.ipynb
 
 ### Primera función:
 **Enunciado: (reto 6, punto 3)**
@@ -233,8 +235,6 @@ if __name__ == "__main__":
   print("----------------------------------------------------------------")
   print("El interes compuesto es " + str(total_f))
 ```
-
-* Mirar archivo Punto_2.py
 
 **3.** Escriba una función recursiva para calcular la operación de la potencia.
 * EXPLICACION
