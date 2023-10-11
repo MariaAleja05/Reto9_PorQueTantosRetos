@@ -276,5 +276,6 @@ Realice pruebas para calcular fibonacci con iteración o con recursión. Determi
 <img width="960" alt="Screenshot 2023-10-10 202249" src="https://github.com/MariaAleja05/Reto9/assets/141857519/7a948f5b-129f-498d-8cf2-27de0fc71d2d">
 
 **6.** Cosas de adultos....ir a linkedin y crear perfil....NO IMPORTA que estén iniciando, si tienen tiempo para redes poco útiles como fb, insta, o tiktok tienen tiempo para crear un perfil mamalón. Dejar enlace en el repo.
-  * EXPLICACION
+  * Definitivamente eso es algo de adultos, ni siquiera tengo una carrera terminada, ni trabajos anteriores para relacionar 🫤 somos mis idiomas y yo contra el mundo. Ni tengo una foto decente, sería, de alguien que busque trabajo para colocar en mi perfil jajajaj. Es necesario definir la palabra del enunciado: "mamalón", quizás es muy subjetiva, en especial cuando no tienes nada más que añadir en tu perfil jajaaj por ahora, en mis años de juventud me quedaré con Instagram, TikTok y VSCO...porque Facebook también es para viejitos.
+
 www.linkedin.com/in/maría-alejandra-niño-peña-7075b0295
