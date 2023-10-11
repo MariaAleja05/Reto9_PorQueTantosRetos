@@ -277,5 +277,4 @@ Realice pruebas para calcular fibonacci con iteración o con recursión. Determi
 
 **6.** Cosas de adultos....ir a linkedin y crear perfil....NO IMPORTA que estén iniciando, si tienen tiempo para redes poco útiles como fb, insta, o tiktok tienen tiempo para crear un perfil mamalón. Dejar enlace en el repo.
   * EXPLICACION
-
-www.linkedin.com/in/maria-alejandra-nino-pena-7075b0295
+www.linkedin.com/in/maría-alejandra-niño-peña-7075b0295
