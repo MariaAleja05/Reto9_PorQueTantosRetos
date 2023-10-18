@@ -237,7 +237,7 @@ if __name__ == "__main__":
 ```
 
 **3.** Escriba una función recursiva para calcular la operación de la potencia.
-* EXPLICACION
+* Lo primero que hice fue crear una función de la potencia, donde se llama a ella misma para realizar la multiplicación y cada vez se le irá restando una unidad a la potencia hasta que se multiplique las n veces en total. En la función main le solicite al usuario ingresar la potencia, la base de la potencia, llamé la función que había creado y se imprimió el resultado.
 * Mirar archivo Punto_3.py
 ```pseudocode
 def potencia(x, n):
