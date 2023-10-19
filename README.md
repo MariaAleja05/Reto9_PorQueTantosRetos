@@ -265,10 +265,64 @@ print(timer)
 ```
 Realice pruebas para calcular fibonacci con iteración o con recursión. Determine desde que número de la serie la diferencia de tiempo se vuelve significativa. Importante: Revisar este hilo.
 
-* EXPLICACION
+* ATENCIÓN: EN CLASE NOS DIJERON QUE PARA ESTE EJERCICIO SE REALIZABAN 2 CÓDIGOS EN TOTAL
 * Mirar archivo Punto_4.py
+* Para este primer código usé la función import time que nos pedía el enunciado y use la función que desarrollamos en clase para calcular fibonacci con recursión. En la función main inicié el tiempo, le solicité al usuario ingresar el número de la serie, llamé la serie. Cuando se imprima el resultado de fibonacci, el temporizador se detendrá y se restá la hora de inicio con la hora de fin para mostrar en cuanto tiempo se ejecutó el programa.
 ```pseudocode
+#Para calcular el tiempo cuando un valor es ingresado por el usuario
 
+import time
+def fiboRecursivo(n : int )-> int:
+  if n <=1:
+    # caso base
+    return 1
+  else:
+    # condicion
+    return fiboRecursivo(n-1)+fiboRecursivo(n-2)  
+
+if __name__ == "__main__":
+  start_time = time.time()
+  num = int(input("Ingrese numero: "))
+  serieFibo = fiboRecursivo(num)
+  print("La serie de Fibonacci hasta " + str(num) + " es " + str(serieFibo))
+  end_time = time.time()
+
+  timer = end_time - start_time
+  print("El tiempo que se demoró el programa fue de: " + str(timer))
+```
+* Para este segundo código, usé la función import time que nos pedía el enunciado, creé una bandera para usarla en el while la cuál me funcionará para detener todas la operaciones de la función de fibonacci cuando ya se haya demorado un tiempo considerable. Dentro de este while está la función, la función main, inicié el tiempo, establecí un número inicial i el cuál irá aumentando cada vez que se cumpla la condición de que no supere el tiempo de ejecución (para esto hay un condicional if donde mira si el timer lleva más de 5seg), llamé la serie. Cuando el timer de superior a 5seg el proceso se dentendrá, se imprima el resultado de fibonacci hasta el número que se llegó. Se imprimirá tambien el número apartir del cual ya se considera tiempo considerable.
+```pseudocode
+#Para calcular desde que número de la serie la diferencia de tiempo se vuelve sorgnificativa
+
+import time
+
+bandera = True
+i : int = 1  
+
+while bandera == True:
+
+  def fiboRecursivo(n : int )-> int:
+   if n <=1:
+     # caso base
+    return 1
+   else:
+    # condicion
+    return fiboRecursivo(n-1)+fiboRecursivo(n-2)
+
+  if __name__ == "__main__":
+    start_time = time.time()
+    num = i
+    serieFibo = fiboRecursivo(num)
+    end_time = time.time()
+    timer = end_time - start_time
+
+  if timer > 5.0: #necesitamos agilidad
+    break
+  else:
+    i=i+1 
+print("La serie de Fibonacci hasta " + str(num) + " es " + str(serieFibo))
+print("A partir de este numero se debe considerar un tiempo considerable superior a 5seg")
+print("Su tiempo de ejecución hasta aquí fue de : " +str(timer))
 ```
 
 **5.** Crear cuenta en stackoverflow y adjuntar imagen en el repo
